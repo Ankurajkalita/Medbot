@@ -19,7 +19,6 @@ for msg in st.session_state.messages:
 # token generator
 
 def generate_response():
-    url = "http://localhost:8501/"
     response = ollama.chat(model='medllama2', stream=True, messages=st.session_state.messages)
     for partial_resp in response:
         token = partial_resp["message"]["content"]
