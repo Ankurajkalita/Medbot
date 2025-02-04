@@ -1,9 +1,6 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# MedBot 
 
-Description of the app ...
+This is a chatbot for medical related issues.
 
 ## Demo App
 
